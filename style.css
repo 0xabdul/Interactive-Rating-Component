@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Overpass", sans-serif;
+}
+#star-img img{
+    padding:1rem;
+    border-radius:50%;
+    background-color: hsl(213, 19%, 18%);
+}
+button{
+    border:0;
+}
+#btn-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+#listone:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform:scale(1.3);
+    transition-duration:0.5s;
+}
+#listone:active{
+    background-color: hsl(25, 97%, 53%);
+}
+#listtwo:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform:scale(1.3);
+    transition-duration:0.5s;
+}
+#listtwo:active{
+    background-color: hsl(25, 97%, 53%);
+}
+#listthree:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform:scale(1.3);
+    transition-duration:0.5s;
+}
+#listthree:active{
+    background-color: hsl(25, 97%, 53%);
+}
+#listfour:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform:scale(1.3);
+    transition-duration:0.5s;
+}
+#listfour:active{
+    background-color: hsl(25, 97%, 53%);
+}
+#listfive:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform:scale(1.3);
+    transition-duration:0.5s;
+}
+#listfive:active{
+    background-color: hsl(25, 97%, 53%);
+}
+#listone,#listtwo,#listthree,#listfour,#listfive{
+    padding:1.2rem;
+    background-color:hsl(213, 19%, 18%);
+    height:1rem;
+    display: flex;
+    font-weight:600;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 1rem;
+    border-radius:50%;
+}
+h1{
+    font-size:1.6rem;
+    color:white;
+}
+h2{
+    font-size:0.9rem;
+    font-weight:200;
+    color:white;
+    line-height:1.5rem;
+}
+#sub{
+    padding-top:0.6rem;
+    padding-bottom:0.6rem;
+    padding-left:4.5rem;
+    padding-right:4.5rem;
+    width:10rem;
+    border-radius:1rem;
+    background-color: hsl(25, 97%, 53%);
+}
+#thankyou-img img{
+    height:5rem;
+}
+#submit-btn{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    animation: tada;
+    animation-duration:5s;
+}
+#sub:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    transition: 0.5s;
+    letter-spacing:0.2rem;
+    font-weight:700;
+}
+#box-1,#box-2{
+    background-color: #50d8d7;
+    background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);    
+    width:20rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    border-radius: 1.5rem;
+    border-top-right-radius:6rem;
+    animation: jackInTheBox;
+  animation-duration: 4s;
+}
+#outside-img img{
+    height:1.5rem;
+    width:1.5rem;
+}
+#outside-img{
+    position: relative;
+    right:9rem;
+}
+#box-2{
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color: #04080a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+}
+h3,#footer-discription{
+    color:white;
+}
+#footer-discription{
+    text-align: center;
+    font-weight:200;
+    font-size:0.9rem;
+}
+#user-select{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding:0.7rem;
+    font-size:0.9rem;
+    border-radius:1rem;
+}
+@media (max-width:400px) {
+    #box-1,#box-2{
+        width:70vw;
+    }
+    #outside-img img{
+        padding-left:20vw;
+    }
+    #btn-number{
+        display: flex;
+        gap:3.5vw;
+    }}
