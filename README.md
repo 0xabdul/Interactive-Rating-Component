@@ -55,8 +55,18 @@
 # live site (url) 🖼️<br>
 
 <ul>
-  <li><a href=""></a></li>
+  <li><a href="https://0xabdul.github.io/Interactive-Rating-Component/"></a></li>
 </ul>
+<br>
+
+## Author<br>
+- Frontend Mentor - [@oxabdul](https://www.frontendmentor.io/profile/0xAbdul)<br>
+
+
+
+## Acknowledgments<br>
+<ul>
+  <li>Inspiration by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a></li>
 
 
 
