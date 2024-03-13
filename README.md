@@ -55,7 +55,7 @@
 # live site (url) 🖼️<br>
 
 <ul>
-  <li><a href="https://0xabdul.github.io/Interactive-Rating-Component/"></a></li>
+  <li><a href="https://0xabdul.github.io/Interactive-Rating-Component/">CLICK HERE</a></li>
 </ul>
 <br>
 
